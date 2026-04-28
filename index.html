@@ -1,0 +1,115 @@
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Validación de documentos</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 40px auto;
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .header img {
+        height: 60px;
+    }
+
+    h2 {
+        margin: 10px 0;
+    }
+
+    .subtitle {
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    .field {
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .field label {
+        font-size: 12px;
+        color: #777;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .field input {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #d4af37;
+        border-radius: 8px;
+        background-color: #fdfdfd;
+    }
+
+    .success {
+        margin-top: 20px;
+        font-size: 40px;
+        color: green;
+    }
+
+    .date {
+        text-align: left;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <img src="logo_educacion.png" alt="Educación">
+        <img src="logo_benc.png" alt="BENC">
+    </div>
+
+    <div class="subtitle">Sistema de Información y Gestión Educativa</div>
+
+    <h2>Validación de documentos<br>académicos electrónicos</h2>
+
+    <div class="field">
+        <label>NOMBRE</label>
+        <input type="text" value="ALAIN TOMAS GUTIERREZ LOPEZ" readonly>
+    </div>
+
+    <div class="field">
+        <label>CURP</label>
+        <input type="text" value="GULA00308HMCTPLA5" readonly>
+    </div>
+
+    <div class="field">
+        <label>DOCUMENTO</label>
+        <input type="text" value="Constancia (120 horas)" readonly>
+    </div>
+
+    <div class="date">
+        <strong>FECHA</strong><br>
+        19 de noviembre de 2024
+    </div>
+
+    <div class="success">
+        ✔
+    </div>
+
+</div>
+
+</body>
+</html>
